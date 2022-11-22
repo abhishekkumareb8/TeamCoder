@@ -11,7 +11,7 @@ public class AnimalDriver {
 		Animal animal1 = beanFactory.getBean("lion",Lion.class);
 		animal.eats();
 		animal1.eats();
-
+System.out.println("Animal Lovers");
 	}
 
 }
